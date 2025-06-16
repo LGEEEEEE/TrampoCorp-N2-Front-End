@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="imagens/logo-trampocorp.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Trampo Corp</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="script.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <header class="fixed-top navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <div class="navbar-brand-and-toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="imagens/logo-trampocorp.png" alt="Logo Trampo Corp">
+                </a>
+
+                <button class="btn btn-link ms-auto me-3 p-0" id="theme-toggle-btn" aria-label="Alternar tema">
+                    <i class="bi bi-sun-fill"></i>
+                </button>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tecnologias">Tecnologias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#equipe">Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projetos.html">Projetos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="text-center mt-7">
+            <div class="presentation" id="presentation">
+                <h1 class="titulo-gradiente">Seja bem-vindo(a) a Trampo Corp</h1>
+
+                <p>Somos especialistas em desenvolvimento de soluções digitais inovadoras que impulsionam seu negócio
+                    para o próximo nível</p>
+            </div>
+        </div>
+        <div class="text-center">
+            <button type="button" id="projects" class="mb-5">
+                <a href="projetos.html">Veja Nossos Projetos</a>
+            </button>
+        </div>
+
+
+        <div class="text-center">
+            <div class="tecnologias" id="tecnologias">
+                <h1 class="titulo-gradiente">Tecnologias usadas nesse site</h1>
+                <p>Usamos as melhores tecnologias disponíveis no mercado para entregar os melhores produtos e serviços
+                    de
+                    excelência!
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="text-start">
+                            <h5 class="card-title"><i class="bi bi-css"></i> CSS </h5>
+                        </div>
+                        <p class="card-text">Usado para criar folhas(sheets) que estilizam as marcações feitas com o
+                            HTML, usando como framework/biblioteca o Bootstrap.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="text-start">
+                            <h5 class="card-title"><i class="bi bi-filetype-html"></i> HTML</h5>
+                        </div>
+                        <p class="card-text">Utilizado para fazer a marcação e identificação do site usando as tags
+                            essenciais, criando o corpo do site.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="text-start">
+                            <h5 class="card-title"><i class="bi bi-javascript"></i> JavaScript</h5>
+                        </div>
+                        <p class="card-text">Linguagem de programação voltada para o desenvolvimento web e que dá vida
+                            ao site com movimentações e interações.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="equipe" class="text-center">
+                <h1 class="titulo-gradiente">Nossos colaboradores</h1>
+                <p>Nossa equipe é formada pelos melhores profissionais em cada area de atuação, tais como
+                    desenvolvimento front-end e back-end, como também Banco de Dados e Serviços em Nuvem</p>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <div class="card-group mt-3">
+                    <div class="card">
+                        <img src="imagens/doug.jpeg" class="card-img-top" alt="Foto Douglas Leite">
+                        <div class="card-body">
+                            <h5 class="card-title">Douglas Leite</h5>
+                            <p class="card-text">Desenvolvedor Back-End | Especialista em API RESTful e bancos de dados.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">
+                                <a href="https://www.linkedin.com/in/douglas-leite/" target="_blank">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/doougls" target="_blank">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="imagens/joaovitor.jpeg" class="card-img-top" alt="Foto João Vitor">
+                        <div class="card-body">
+                            <h5 class="card-title">João Vitor</h5>
+                            <p class="card-text">Desenvolvedor Cloud | Especialista em Azure Cloud Services.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">
+                                <a href="https://www.linkedin.com/in/joaovitor-dev/" target="_blank">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/joaovitor-dev" target="_blank">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="imagens/gui.jpeg" class="card-img-top" alt="Foto Guilherme Silva">
+                        <div class="card-body">
+                            <h5 class="card-title">Guilherme Silva</h5>
+                            <p class="card-text">UI/UX Designer | Cria interfaces intuitivas e experiências memoráveis.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">
+                                <a href="https://www.linkedin.com/in/guilherme-silva-891475357/" target="_blank">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/Gsidoka" target="_blank">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </small>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagens/lg.jpeg" class="card-img-top" alt="Foto Luiz Gustavo">
+                        <div class="card-body">
+                            <h5 class="card-title">Luiz Gustavo</h5>
+                            <p class="card-text">Desenvolvedor Full-stack | Experiência em Java, Python React, Node.js e
+                                UI/UX.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">
+                                <a href="https://www.linkedin.com/in/luiz-gustavo-balbino-serra-dos-santos-613522305/"
+                                    target="_blank">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="https://www.github.com/LGEEEEEE" target="_blank">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </small>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagens/emidio.jpeg" class="card-img-top" alt="Foto Luiz Gustavo">
+                        <div class="card-body">
+                            <h5 class="card-title">Gabriel Emídio</h5>
+                            <p class="card-text">DevOps | Especialista em Git, GitHub, e métodologia Scrum.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">
+                                <a href="" target="_blank">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="" target="_blank">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contato" class="mb-3">
+
+                <div class="text-center">
+                    <h1 class="titulo-gradiente">Contato</h1>
+                    <p>Pronto para transformar sua ideia em realidade? Vamos conversar sobre seu projeto.</p>
+
+                    <h2>Informações de Contato</h2>
+
+                    <small class="text-body-secondary">
+                        <a href="mailto:trampocorpatendimento.com" target="_blank">
+                            <i class="bi bi-envelope">Email: trampocorpatendimento@gmail.com</i>
+                        </a>
+                    </small>
+
+                    <small class="text-body-secondary">
+                        <a href="https:api.whatsapp.com/send?phone=61994322587" target="_blank">
+                            <i class="bi bi-phone">Telefone: (61) 994322587</i>
+                        </a>
+                    </small>
+
+                    <small class="text-body-secondary">
+                        <a href="" target="_blank">
+                            <i class="bi bi-geo-alt-fill"> Localização: QS 07 – Lote 01 – EPCT – Taguatinga, Brasília/DF
+                            </i>
+                        </a>
+                    </small>
+                </div>
+
+
+
+                <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="JOÃO DA SILVA">
+
+                <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@email.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Conte-nos sobre seu projeto</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1"
+                placeholder="Conte um pouquinho do seu projeto" rows="3"></textarea>
+            </div>
+
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+            crossorigin="anonymous"></script>
+
+
+    </div>
+</body>
+
+</html>

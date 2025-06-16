@@ -1,0 +1,22 @@
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.carousel-caption h5 {
+    background: linear-gradient(to right, var(--cor-header-gradiente-inicio), var(--cor-header-gradiente-meio), var(--cor-header-gradiente-fim));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+
+
