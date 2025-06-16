@@ -1,235 +1,260 @@
 :root {
-            --cor-fundo-principal: white;
-            --cor-texto-principal: black;
-            --cor-card-fundo: white;
-            --cor-card-borda: #dee2e6;
-            --cor-header-gradiente-inicio: #007bff;
-            --cor-header-gradiente-meio: #29b1b1;
-            --cor-header-gradiente-fim: #5f1e9c;
-            --cor-texto-header: white;
-            --cor-footer-texto: #6c757d;
-        }
+    --cor-fundo-principal: white;
+    --cor-texto-principal: black;
+    --cor-card-fundo: white;
+    --cor-card-borda: #dee2e6;
+    --cor-header-gradiente-inicio: #007bff;
+    --cor-header-gradiente-meio: #29b1b1;
+    --cor-header-gradiente-fim: #5f1e9c;
+    --cor-texto-header: white;
+    --cor-footer-texto: #6c757d;
+}
 
-        body.dark-mode {
-            --cor-fundo-principal: #212529;
-            --cor-texto-principal: #f8f9fa;
-            --cor-card-fundo: #343a40;
-            --cor-card-borda: #495057;
-            --cor-header-gradiente-inicio: #2786ae;
-            --cor-header-gradiente-meio: #2b89a8;
-            --cor-header-gradiente-fim: #2c5364;
-            --cor-texto-header: #f8f9fa;
-            --cor-footer-texto: #adb5bd;
-        }
+body.dark-mode {
+    --cor-fundo-principal: #212529;
+    --cor-texto-principal: #f8f9fa;
+    --cor-card-fundo: #343a40;
+    --cor-card-borda: #495057;
+    --cor-header-gradiente-inicio: #2786ae;
+    --cor-header-gradiente-meio: #2b89a8;
+    --cor-header-gradiente-fim: #2c5364;
+    --cor-texto-header: #f8f9fa;
+    --cor-footer-texto: #adb5bd;
+}
 
-        body {
-            background-color: var(--cor-fundo-principal);
-            color: var(--cor-texto-principal);
-            transition: background-color 0.3s ease, color 0.3s ease;
-            font-family: 'Poppins', sans-serif;
-        }
+body {
+    background-color: var(--cor-fundo-principal);
+    color: var(--cor-texto-principal);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
 
-        .fixed-top {
-            padding: 10px 20px;
-            background: linear-gradient(to right, var(--cor-header-gradiente-inicio), var(--cor-header-gradiente-meio), var(--cor-header-gradiente-fim));
-            display: flex;
-            align-items: center;
-            height: 70px;
-            width: 100%;
-            justify-content: space-between;
-            z-index: 1030;
-        }
+.fixed-top {
+    padding: 10px 20px;
+    background: linear-gradient(to right, var(--cor-header-gradiente-inicio), var(--cor-header-gradiente-meio), var(--cor-header-gradiente-fim));
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1030;
+}
 
-        .fixed-top img {
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-        }
+.fixed-top img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
 
-        .navbar-nav .nav-link {
-            color: var(--cor-texto-header) !important;
-            padding: 5px 10px;
-        }
+.navbar-nav .nav-link {
+    color: var(--cor-texto-header) !important;
+    padding: 5px 10px;
+}
 
-        .navbar-nav .nav-link:hover {
-            color: rgba(255, 255, 255, 0.8) !important;
-            transform: translateY(-3px);
-            transition: 0.3s;
-        }
+.navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.8) !important;
+    transform: translateY(-3px);
+    transition: 0.3s;
+}
 
-        #theme-toggle-btn i {
-            color: var(--cor-texto-header);
-            font-size: 1.2rem;
-            transition: color 0.3s ease;
-        }
+#theme-toggle-btn i {
+    color: var(--cor-texto-header);
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
 
-        #theme-toggle-btn:hover i {
-            color: rgba(255, 255, 255, 0.8);
-        }
+#theme-toggle-btn:hover i {
+    color: rgba(255, 255, 255, 0.8);
+}
 
-        .container {
-            margin-top: 80px;
-        }
+.container {
+    margin-top: 80px;
+}
 
-        .titulo-gradiente {
-            background: linear-gradient(to right, var(--cor-header-gradiente-inicio), var(--cor-header-gradiente-meio), var(--cor-header-gradiente-fim));
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            display: inline-block;
-            font-size: 2.5rem;
-        }
+.titulo-gradiente {
+    background: linear-gradient(to right, var(--cor-header-gradiente-inicio), var(--cor-header-gradiente-meio), var(--cor-header-gradiente-fim));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 2.5rem;
+}
 
-        .tecnologias p,
-        .presentation p {
-            color: var(--cor-texto-principal);
-            font-size: 1.1rem;
-            margin-bottom: 30px;
-        }
+.tecnologias p,
+.presentation p {
+    color: var(--cor-texto-principal);
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
 
-        #projects a {
-            color: var(--cor-texto-principal);
-            padding: 20px;
-            text-decoration: none;
-            background: linear-gradient(to right, var(--cor-header-gradiente-inicio), var(--cor-header-gradiente-meio), var(--cor-header-gradiente-fim));
-            border: none;
-            border-radius: 20px;
-        }
+#projects a {
+    color: var(--cor-texto-principal);
+    padding: 20px;
+    text-decoration: none;
+    background: linear-gradient(to right, var(--cor-header-gradiente-inicio), var(--cor-header-gradiente-meio), var(--cor-header-gradiente-fim));
+    border: none;
+    border-radius: 20px;
+}
 
-        #projects:hover {
-            scale: 1.05;
-            transition: 0.3s;
-        }
+#projects:hover {
+    scale: 1.05;
+    transition: 0.3s;
+}
 
-        #projects {
-            border: none;
-            background: none;
-        }
+#projects {
+    border: none;
+    background: none;
+}
 
-        .card {
-            background-color: var(--cor-card-fundo);
-            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
-            position: relative;
-            z-index: 1;
-        }
+.card {
+    background-color: var(--cor-card-fundo);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
 
-        .card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-            z-index: 2;
-        }
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
 
-        .card-title {
-            color: var(--cor-texto-principal);
-        }
+.card-title {
+    color: var(--cor-texto-principal);
+}
 
-        .card-text {
-            color: var(--cor-texto-principal);
-        }
+.card-text {
+    color: var(--cor-texto-principal);
+}
 
-        .card-group .card .card-body {
-            color: var(--cor-texto-principal);
-        }
+.card-group .card .card-body {
+    color: var(--cor-texto-principal);
+}
 
-        .card-group .card .card-footer {
-            background-color: var(--cor-card-fundo);
-            border-top: 1px solid var(--cor-card-borda);
-            color: var(--cor-footer-texto);
-        }
+.card-group .card .card-footer {
+    background-color: var(--cor-card-fundo);
+    border-top: 1px solid var(--cor-card-borda);
+    color: var(--cor-footer-texto);
+}
 
-        .text-body-secondary {
-            color: var(--cor-footer-texto) !important;
-        }
+.text-body-secondary {
+    color: var(--cor-footer-texto) !important;
+}
 
-        @media (max-width: 991.98px) {
-            .fixed-top {
-                flex-wrap: wrap;
-                height: auto;
-            }
+@media (max-width: 991.98px) {
+    .fixed-top {
+        flex-wrap: wrap;
+        height: auto;
+    }
 
-            .navbar-collapse {
-                width: 100%;
-                margin-top: 10px;
-            }
+    .navbar-collapse {
+        width: 100%;
+        margin-top: 10px;
+    }
 
-            .navbar-nav {
-                flex-direction: column;
-                width: 100%;
-                text-align: center;
-            }
+    .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
 
-            .navbar-nav .nav-item {
-                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-            }
+    .navbar-nav .nav-item {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
 
-            .navbar-nav .nav-item:last-child {
-                border-bottom: none;
-            }
-        }
+    .navbar-nav .nav-item:last-child {
+        border-bottom: none;
+    }
+}
 
-        .navbar-brand-and-toggler {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-        }
+.navbar-brand-and-toggler {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
 
-        .card-img-top {
-            max-width: 100%;
-            height: auto;
-        }
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
 
-        .card-group .card .card-img-top {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-        }
+.card-group .card .card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
 
-        .card-text {
-            color: var(--cor-texto-principal);
-        }
+.card-text {
+    color: var(--cor-texto-principal);
+}
 
-        .text-body-secondary a {
-            margin-left: 5px;
-            text-decoration: none;
-            display: inline-block;
-            padding: 5px;
-            transition: all 0.3s ease;
-        }
+.text-body-secondary a {
+    margin-left: 5px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
 
-        .text-body-secondary a i {
-            color: gray;
-            transition: color 0.3s ease;
-        }
+.text-body-secondary a i {
+    color: gray;
+    transition: color 0.3s ease;
+}
 
-        .text-body-secondary a:hover i {
-            background: radial-gradient(circle farthest-corner at center, var(--cor-header-gradiente-inicio), var(--cor-header-gradiente-meio), var(--cor-header-gradiente-fim));
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
+.text-body-secondary a:hover i {
+    background: radial-gradient(circle farthest-corner at center, var(--cor-header-gradiente-inicio), var(--cor-header-gradiente-meio), var(--cor-header-gradiente-fim));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
 
-        .card-group {
-            padding-left: 10px;
-            padding-right: 10px;
-            margin-left: -10px;
-            margin-right: -10px;
-        }
+.card-group {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
 
-        .card-group>.card {
-            margin-bottom: 20px;
-        }
+.card-group>.card {
+    margin-bottom: 20px;
+}
 
-        .card-group>.card+.card {
-            margin-left: 0;
-        }
+.card-group>.card+.card {
+    margin-left: 0;
+}
 
 
-        .centered-card-group {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
+.centered-card-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 
-        }
+}
 
-        
+#footer {
+    color: var(--cor-texto-principal);
+    padding: 20px;
+    text-decoration: none;
+    background: linear-gradient(to right, var(--cor-header-gradiente-inicio), var(--cor-header-gradiente-meio), var(--cor-header-gradiente-fim));
+    border: none;
+}
+
+#footer p{
+    color: var(--cor-card-borda);
+}
+
+#footer a {
+    color: var(--cor-card-borda);
+    text-decoration: none;
+    display: inline-block;
+    /* Essencial para que a transformação funcione corretamente em elementos inline */
+    transition: transform 0.3s ease;
+    /* Adiciona transição para um efeito suave */
+}
+
+#footer a:hover {
+    transform: translateY(-5px);
+    color: var(--cor-card-borda);
+    
+}
